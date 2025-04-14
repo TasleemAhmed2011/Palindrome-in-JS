@@ -4,11 +4,11 @@ function palindrome(myString){
     var reversed = input.split('').reverse().join('');
 
     if (input === reversed) {
-        document.getElementById("result").innerHTML = myString + " is a palindrome";
+        document.write(myString + " is a palindrome.");
     } 
 
     else {
-        document.getElementById("result").innerHTML = myString + " is not a palindrome.";
+        document.write(myString + " is not a palindrome.");
     }
 
 }
